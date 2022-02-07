@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+      integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="addToCart.js"></script>
+    <title>The Foundation$ | welcome</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="top-nav-bar">
+      <div class="search-box">
+        <img src="images/thif_1.jpg" class="logo" />
+        <input type="text" placeholder="Search Store" class="form-control" />
+        <span class="input-group-text"
+          ><i class="fa fa-search" aria-hidden="true"></i
+        ></span>
+        <div class="link">
+          <nav>
+            <a href="partners.html">Partners</a>
+            <a href="register.html">Register</a>
+            <a href="login.html">Login</a>
+            <a href="home.html">Home</a>
+          </nav>
+          <div class="cart" id="cart">
+            <a href="cart.html">
+              <i class="fa fa-shopping-cart" aria-hidden="true"></i><span>0</span>
+            </a>
+            <div id="title"></div>
+        </div>
+        
+      </div>
+    </div>
+    <div id="mvg-txt">
+      <marquee><h2>For the best discounts on the best selling market only | shop with The Foundation.</h2></marquee>
+    </div>
+      <div id="nav">
+            <a href="category.html">Category</a>
+            <a href="men.html">Men</a>
+            <a href="women.html">Women</a>
+            <a href="boys.html">Boys</a>
+            <a href="girls.html">Girls</a>
+            <a href="kids.html">Kids</a>
+      </div>
+      <br>
+      <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script> 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <section class="-middle-top">
+       <div id="-pho-crdt">
+          <img src="images/GL-CloseToHome-Lede.jpg">
+       </div>
+       <div class="chek-in">
+         <img src="images/elle-ss18-trend-report-2a-1508859946.jpg">
+       </div>
+    </section>
+    <div class="-container">
+      <div class="crt" id="item1">
+        <img src="images/cart1.jpg" alt="Girl's wear">
+        <div class="title">Girl's dress</div>
+        <h3>UGX:45,000/=</h3>
+        <button onclick="addToCart(item1)">Add to cart</button> &nbsp; &nbsp;
+        <label for="size">size:</label>
+        <select>
+          <option></option>
+          <option>S</option>
+          <option>M</option>
+          <option>L</option>
+          <option>XL</option>
+          <option>XXL</option>
+          <option>XXXL</option>
+        </select>
+      </div>
+      <br>
+      <div class="crt" id="item2">
+        <img src="images/cart2.jpg" alt="sweater pants">
+        <div class="title">Boy design</div>
+        <h3>UGX:50,000/=</h3>
+        <button onclick="addToCart(item2)">Add to cart</button> &nbsp; &nbsp;
+        <label for="size">size:</label>
+        <select>
+          <option></option>
+          <option>S</option>
+          <option>M</option>
+          <option>L</option>
+          <option>XL</option>
+          <option>XXL</option>
+          <option>XXXL</option>
+        </select>
+      </div>
+      <br>
+      <div class="crt" id="item3">
+        <img src="images/bomber.jpg" alt="bomber">
+        <div class="title">Men bomebr</div>
+        <h3>UGX:75,000/=</h3>
+        <button onclick="addToCart(item3)">Add to cart</button> &nbsp; &nbsp;
+        <label for="size">size:</label>
+        <select>
+          <option></option>
+          <option>S</option>
+          <option>M</option>
+          <option>L</option>
+          <option>XL</option>
+          <option>XXL</option>
+          <option>XXXL</option>
+        </select>
+      </div>
+      <br>
+      <div class="crt" id="item4">
+        <img src="images/cart4.jpg" alt="kitengi">
+        <div class="title">Women kitengi</div>
+        <h3>UGX:65,000/=</h3>
+        <button onclick="addToCart(item4)">Add to cart</button> &nbsp; &nbsp;
+        <label for="size">size:</label>
+        <select>
+          <option></option>
+          <option>S</option>
+          <option>M</option>
+          <option>L</option>
+          <option>XL</option>
+          <option>XXL</option>
+          <option>XXXL</option>
+        </select>
+      </div>
+      <div class="cart" id="cart">
+        <div class="title">CART</div><hr>
+        <div id="title"></div>
+      </div>
+
+    </div>
+    <br>
+    <br>
+  </body>
+</html>
+<form>
+  <input type="text" onblur="window.alert('hey this is crucial');">
+  <input type="text">
+</form>
+<form>
+  Are you cool?<br />
+  <select onchange="window.alert('Why did you change that?');">
+  <option selected="selected">Yes</option>
+  <option>No</option>
+  <option>Undecided</option>
+  </select>
+</form>
